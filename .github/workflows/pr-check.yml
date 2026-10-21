@@ -33,4 +33,4 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Provided by GitHub automatically
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}    # You must add this in GitHub Repo Secrets
         # Runs unit tests (generating JaCoCo XML reports) and pushes results to SonarCloud
-        run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=YourSonarProjectKey -Dsonar.organization=YourSonarOrg
+        run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=Nkumar26Neo_SimpleMicroService -Dsonar.organization=Nkumar26Neo
